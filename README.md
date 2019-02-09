@@ -2,6 +2,8 @@
 
 Really simple and ready to develop game with **BabylonJS** template
 
+Pull the code and directly work in the `./src` folder
+
 ---
 
 ## Contents
@@ -10,10 +12,12 @@ Really simple and ready to develop game with **BabylonJS** template
 * Typescript
 * TSLint
 * Webpack
+* CSS
 
 Export is configured as:
-* 16:9 (720p)
-* es6 (tree shaking + code splitting)
+* Fix ratio 16:9 (720p)
+* Automatic scaling with black border
+* ES6 (tree shaking + code splitting)
 
 ---
 

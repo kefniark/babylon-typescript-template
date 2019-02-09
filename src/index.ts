@@ -1,3 +1,6 @@
+// default css
+import './index.css';
+
 // use modern es6 import for tree shaking
 import { Engine } from '@babylonjs/core/Engines/engine';
 import { Scene } from '@babylonjs/core/scene';
@@ -13,8 +16,6 @@ const canvas = document.createElement('canvas');
 canvas.id = 'renderCanvas';
 canvas.width = 1280;
 canvas.height = 720;
-canvas.style.position = 'absolute';
-canvas.style.border = '1px solid';
 
 // append body
 const body = document.getElementsByTagName('body')[0];
@@ -22,16 +23,6 @@ body.appendChild(canvas);
 
 // create scene
 const engine: Engine = new Engine(canvas, true);
-
-// upscale 16:9 based on width and center verticaly
-canvas.style.width = '100vw';
-canvas.style.height = '56.25vw';
-canvas.style.top = '50vh';
-canvas.style.marginTop = '-28.125vw';
-canvas.style.userSelect = 'none';
-canvas.style.outline = 'none';
-document.body.style.margin = '0px';
-document.body.style.backgroundColor = 'black';
 
 // babylon scene
 function createScene (): Scene {
