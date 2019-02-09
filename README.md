@@ -2,6 +2,8 @@
 
 Really simple and ready to develop game with **BabylonJS** template
 
+Demo : https://kefniark.github.io/babylon-typescript-template/dist/
+
 ---
 
 ## Contents
