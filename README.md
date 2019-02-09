@@ -4,6 +4,8 @@ Really simple and ready to develop game with **BabylonJS** template
 
 Pull the code and directly work in the `./src` folder
 
+**Demo** : https://kefniark.github.io/babylon-typescript-template/dist/
+
 ---
 
 ## Contents
