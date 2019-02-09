@@ -1,6 +1,6 @@
 # BabylonJS Template
 
-Really simple and ready to develop **BabylonJS** template
+Really simple and ready to develop game with **BabylonJS** template
 
 ---
 
