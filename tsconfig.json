@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		// build
+		"lib": [
+			"es2015",
+			"dom"
+		],
+		"target": "es6",
+		"module": "commonjs",
+		// build settings
+		"sourceMap": true,
+		"pretty": true,
+		"preserveConstEnums": true,
+		"removeComments": true,
+		// strict
+		"strict": true,
+		"alwaysStrict": true,
+		"noResolve": false,
+		"noImplicitAny": false,
+		"experimentalDecorators": true,
+		"isolatedModules": false,
+		"outDir": "./dist"
+	},
+	"files": [
+		"./src/index.ts"
+	]
+}

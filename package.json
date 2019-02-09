@@ -1,0 +1,31 @@
+{
+  "name": "babylon-typescript-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack-dev-server",
+    "lint": "tslint --project tsconfig.json 'src/**/*.ts'",
+    "local-server": "http-server ./dist -p 80 -g -c 10"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babylonjs/core": "^4.0.0-alpha.18",
+    "@babylonjs/loaders": "^4.0.0-alpha.18",
+    "@babylonjs/materials": "^4.0.0-alpha.18",
+    "@babylonjs/post-processes": "^4.0.0-alpha.18"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.11.1",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.12.1",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}

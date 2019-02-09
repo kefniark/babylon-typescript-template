@@ -1,0 +1,24 @@
+{
+	"defaultSeverity": "error",
+	"extends": [
+		"tslint:recommended",
+		"tslint-config-standard"
+	],
+	"rules": {
+		"triple-equals": true,
+		"prefer-object-spread": true,
+
+		"interface-name": [true, "always-prefix"],
+		"semicolon": [true, "always"],
+		"indent": [true, "tabs"],
+		"ter-indent": [true, "tab"],
+		"quotemark": [true, "single"],
+
+		"ordered-imports": false,
+		"object-literal-sort-keys": false,
+		"member-ordering": false,
+		"jsx-no-lambda": false,
+		"jsx-booleand-value": false
+	},
+	"rulesDirectory": []
+}
