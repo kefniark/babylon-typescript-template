@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@babylonjs/core": "^4.0.0-alpha.18",
+    "@babylonjs/inspector": "^4.0.0-alpha.18",
     "@babylonjs/loaders": "^4.0.0-alpha.18",
     "@babylonjs/materials": "^4.0.0-alpha.18",
     "@babylonjs/post-processes": "^4.0.0-alpha.18"

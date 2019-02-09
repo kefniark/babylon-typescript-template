@@ -1,5 +1,6 @@
 // default css
 import './index.css';
+import '@babylonjs/inspector';
 
 // use modern es6 import for tree shaking
 import { Engine } from '@babylonjs/core/Engines/engine';
@@ -44,4 +45,10 @@ const defaultScene = createScene();
 
 engine.runRenderLoop(() => {
 	defaultScene.render();
+});
+
+// debug panel
+defaultScene.debugLayer.show({
+	overlay: true,
+	embedMode: true
 });

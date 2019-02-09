@@ -19,6 +19,7 @@ Pull the code and directly work in the `./src` folder
 Export is configured as:
 * Fix ratio 16:9 (720p)
 * Automatic scaling with black border
+* Developer Inspector enabled
 * ES6 (tree shaking + code splitting)
 
 ---
@@ -50,3 +51,9 @@ you can test it with `npm run local-server`
 npm run lint
 ```
  - its recommended to use https://marketplace.visualstudio.com/items?itemName=eg2.tslint
+
+---
+
+## Screenshot
+
+![Screenshot](./demo.jpg)
